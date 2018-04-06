@@ -24,7 +24,7 @@ int main(){
 			}
 			i++;
 		}
-		printf("TYPE 0 TO CONTINUE AND 1 TO EXIT\n");
+		printf("TYPE 0 TO CONTINUE OR 1 TO EXIT\n");
 		scanf("%d", &status);		
 	}
 }
