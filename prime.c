@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(){
-	int i = 0,  qnt = 0, status = 0;	
+	int i = 0,  max = 0, status = 0;	
 	while (status == 0){			
 		printf("TYPE THE MAXIMUM NUMBER TO CHECK\n");
-		scanf("%d", &qnt);
-		printf("\nPRIME NUMBERS UNTIL %d\n\n", qnt);
-		while (i <= qnt){
+		scanf("%d", &max);
+		printf("\nPRIME NUMBERS UNTIL %d\n\n", max);
+		while (i <= max){
 			if (i == 2){
 				printf(" %d -> PRIME\n", i);
 			}
